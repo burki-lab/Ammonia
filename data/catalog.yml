@@ -1,0 +1,11 @@
+data:
+    picture:
+        path: Ammonia/data/picture.jpeg
+        comment: cool lab
+    table:
+        path: Ammonia/data/table.csv
+        comment: protists are everywhere, even in your data
+    catalog:
+        path: Ammonia/data/catalog.yml
+        comment: wonderful catalog of file of different types that can be viewed in JupyterLab
+        
