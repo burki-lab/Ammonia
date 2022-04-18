@@ -1,0 +1,4 @@
+LOGIN:
+  USER_MAIL: <FILL_IN>
+  API_KEY: <FILL_IN>
+  COMMENT: One can sign up [here](https://account.ncbi.nlm.nih.gov/signup/) and copy the API key from [here](https://www.ncbi.nlm.nih.gov/account/settings/)
