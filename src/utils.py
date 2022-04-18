@@ -4,7 +4,7 @@
 from Bio import Entrez
 import os
 
-from __init__ import NCBI_CFGS
+from src.__init__ import NCBI_CFGS
 
 # important functions for entrez downloading
 def authenticate():

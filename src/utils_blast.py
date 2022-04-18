@@ -9,7 +9,7 @@ import json
 import os
 import pandas as pd
 
-from __init__ import dbex_utils
+from src import utils
 
 class BufferedGenomeLoader:
     '''Class that helps to smoothely download and track reference genomes from nuccore db.
@@ -129,7 +129,7 @@ class BufferedGenomeLoader:
                       "rettype": ret_type,
                       "retmode": "text"
                      }
-            handle = dbex_utils.rescue_entrez(Entrez.efetch, **kwargs)
+            handle = utils.rescue_entrez(Entrez.efetch, **kwargs)
             fetching_time = str(datetime.today())
             # store the records
             self.save_and_log_records(handle, fetching_time, ret_type=ret_type)
@@ -182,9 +182,9 @@ class BufferedGenomeLoader:
 def edo(query, method="esummary", db_from=None):
     '''Run esummary or elink on IDs.
     '''
-    from __init__ import dbex_utils
+    from src import utils
     
-    dbex_utils.authenticate()
+    utils.authenticate()
     # we assemble a bunch of good kwargs
     kwargs = {"db": "nuccore",
           "id": query,
@@ -202,7 +202,7 @@ def edo(query, method="esummary", db_from=None):
         fct = Entrez.elink
     else : raise RuntimeError("Wrong method. Try elink or esummary.")
     
-    handle = dbex_utils.rescue_entrez(fct, **kwargs)
+    handle = utils.rescue_entrez(fct, **kwargs)
     try : return json.load(handle)
     except json.JSONDecodeError: return None
 
