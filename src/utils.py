@@ -4,13 +4,15 @@
 from Bio import Entrez
 import os
 
+from __init__ import NCBI_CFGS
+
 # important functions for entrez downloading
 def authenticate():
     """
     Log into NCBI account to fetch information faster.
     """
-    Entrez.email = "FILL_IN"
-    Entrez.api_key = "FILL_IN"
+    Entrez.email = NCBI_CFGS["LOGIN"]["USER_MAIL"]
+    Entrez.api_key = NCBI_CFGS["LOGIN"]["API_KEY"]
     return
 
 def rescue_entrez(entrez_function, **kwargs):
