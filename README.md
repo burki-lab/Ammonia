@@ -17,6 +17,15 @@ In general, it is a good idea to have a repository for each published paper/prep
 Also a great idea to have a repository for scripts/workflows used regularly in the lab so that it's easier for newer members to build on previous work (e.g. the phylogenomics repo started by Harshall and the scripts repo). We can also have a repo for commonly used wet lab protocols (long-range PCRs). 
 
 ## Uploading code 
-Got some scripts on your computer that you want to upload? Start off by signing-up for a GitHub account. You can also join "organizations" (the burki-lab is an organization on GitHub). Choose or create a repo and then 
+Got some scripts on your computer that you want to upload? Start off by signing-up for a GitHub account. You can also join "organizations" (the burki-lab is an organization on GitHub). Choose or create a repo and then simply click on **Add file** --> **Upload files**. 
+
+## A note on licensing
+Without a license, the default copyright laws apply, meaning that you retain all rights to your source code and no one may reproduce, distribute, or create derivative works from your work. Therefore, for your work to truly be open source, you'll need to license it so that others are free to use, change, and distribute the software.
+
+GitHub will let you pick a license whenever you create a new repository, or you can add one at a later step. Here are a couple of resources to help you choose a license:
+- https://choosealicense.com/
+- https://gist.github.com/nicolasdao/a7adda51f2f185e8d2700e1573d8a633
+
+
 
 
