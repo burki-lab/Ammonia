@@ -14,6 +14,9 @@ You may already be familiar with Git which is a software installed locally, used
 
 In general, it is a good idea to have a repository for each published paper/preprint (a repository contains all of your project's files and each file's revision history [for example](https://github.com/UU-Microbial-Eukaryotes/ebook/commits/main)).
 
-Also a great idea to have a repository for scripts/workflows used regularly in the lab so that it's easier for newer members to build on previous work.
+Also a great idea to have a repository for scripts/workflows used regularly in the lab so that it's easier for newer members to build on previous work (e.g. the phylogenomics repo started by Harshall and the scripts repo). We can also have a repo for commonly used wet lab protocols (long-range PCRs). 
+
+## Uploading code 
+Got some scripts on your computer that you want to upload? Start off by signing-up for a GitHub account. You can also join "organizations" (the burki-lab is an organization on GitHub). Choose or create a repo and then 
 
 
