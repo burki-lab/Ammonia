@@ -19,6 +19,8 @@ Also a great idea to have a repository for scripts/workflows used regularly in t
 ## Uploading code 
 Got some scripts on your computer that you want to upload? Start off by signing-up for a GitHub account. You can also join "organizations" (the burki-lab is an organization on GitHub). Choose or create a repo and then simply click on **Add file** --> **Upload files**. 
 
+You can also do it from the command line! But for now 
+
 ## A note on licensing
 Without a license, the default copyright laws apply, meaning that you retain all rights to your source code and no one may reproduce, distribute, or create derivative works from your work. Therefore, for your work to truly be open source, you'll need to license it so that others are free to use, change, and distribute the software.
 
